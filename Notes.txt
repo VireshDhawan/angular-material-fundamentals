@@ -1,1 +1,21 @@
 1. Goto https://codepen.io/team/AngularMaterial/ to access the Angular Material Community on CodePen
+2. Installing Angular Material
+	Install node JS first
+	---------Install via npm------------
+	npm install angular-material
+	npm init(To create the package.json)
+	---------Install via jspm-----------
+	npm install jspm -g {To run the jspm command install globally}
+	jspm install angular-material
+	---------Install via bower----------
+	npm install bower -g
+	bower install angular-material --save {save to create a bower.json file}
+	bower init
+	Create .bowerrc file in the root folder with the following
+	{
+		"directory": "app/bower_components"
+	}
+	run bower update & delete the bower_components folder from the root
+3. Setup Typescript
+	npm install typescript
+	npm install @types/angular @types/angular-material {To get the definitions or copy typings from https://github.com/ajtowf/angular-material-fundamentals}
